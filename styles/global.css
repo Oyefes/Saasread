@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  @apply px-2 py-1 font-bold hover:border-[2px] dark:border-white border-slate-950 rounded-lg flex flex-grow-0 cursor-pointer;
+}
+
+.dropdown_link {
+  @apply hover:bg-slate-950 transition-all duration-200 dark:hover:bg-white dark:hover:text-slate-950 hover:text-white p-2;
+}
+
+.scrollbar::-webkit-scrollbar {
+  @apply w-2 bg-slate-200  rounded-3xl;
+}
+.scrollbar::-webkit-scrollbar-track {
+  @apply w-2 bg-slate-700 rounded-3xl;
+}
